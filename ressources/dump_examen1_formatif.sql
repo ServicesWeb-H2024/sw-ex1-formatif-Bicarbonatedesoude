@@ -18,6 +18,9 @@
 --
 -- Table structure for table `netflix_titles`
 --
+CREATE DATABASE IF NOT EXISTS `Netflix` CHARACTER SET = 'utf8mb4' COLLATE = 'utf8mb4_unicode_ci';
+
+USE `Netflix`;
 
 DROP TABLE IF EXISTS `netflix_titles`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
